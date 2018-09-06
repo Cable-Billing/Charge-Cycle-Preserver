@@ -6,8 +6,8 @@ from time import sleep
 percentageCommand = 'upower -i /org/freedesktop/UPower/devices/battery_BAT1 | grep percentage | grep -Eo "([0-9]{1,3})"'
 stateCommand = 'upower -i /org/freedesktop/UPower/devices/battery_BAT1 | grep state | grep -Eo "((dis)?charging)"'
 
-lowBatteryIcon = '/home/caleb/Pictures/icons/battery/battery-caution.png'
-fullBatteryIcon = '/home/caleb/Pictures/icons/battery/battery-good.png'
+lowBatteryIcon = './icons/battery-caution.png'
+fullBatteryIcon = './icons/battery-good.png'
 
 notify2.init("Charge Cycle Preserver")
 while True:
