@@ -3,6 +3,6 @@ Type=Application
 Encoding=UTF-8
 Name=Charge Cycle Preserver
 Comment=Program to notify you when your laptops battery is below 40% and not charging and above 85% and charging, to preserve charge cycles
-Exec=./charge-cycle-reserver.sh
+Exec=./charge-cycle-preserver.sh
 Icon=./icons/battery.png
 Terminal=False
